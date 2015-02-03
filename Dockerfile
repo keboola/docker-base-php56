@@ -1,4 +1,4 @@
-#VERSION 1.0.0
+#VERSION 1.0.1
 FROM keboola/base
 MAINTAINER Ondrej Hlavacek <ondrej.hlavacek@keboola.com>
 
