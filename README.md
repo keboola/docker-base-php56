@@ -1,3 +1,3 @@
-# Keboola Docker Base PHP 5.5
+# Keboola Docker Base PHP 5.6
 
-Base image for PHP 5.5 applications.
+Base image for PHP 5.6 applications.
