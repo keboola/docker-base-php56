@@ -6,8 +6,8 @@ MAINTAINER Ondrej Hlavacek <ondrej.hlavacek@keboola.com>
 WORKDIR /tmp
 RUN rpm -Uvh https://mirror.webtatic.com/yum/el6/latest.rpm
 RUN rpm -Uvh http://rpms.famillecollet.com/enterprise/remi-release-7.rpm
-RUN yum -y --enablerepo=epel,remi,remi-php55 upgrade
-RUN yum -y --enablerepo=epel,remi,remi-php55 install \
+RUN yum -y --enablerepo=epel,remi,remi-php56 upgrade
+RUN yum -y --enablerepo=epel,remi,remi-php56 install \
 	git \
 	php \
 	php-cli \
