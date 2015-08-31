@@ -16,6 +16,7 @@ RUN yum -y --enablerepo=epel,remi,remi-php56 install \
 	php-pdo \
 	php-xml
 RUN echo "date.timezone=UTC" >> /etc/php.ini
+RUN echo "memory_limit = -1" >> /etc/php.ini
 RUN curl -sS https://getcomposer.org/installer | php
 RUN mv composer.phar /usr/local/bin/composer
 
