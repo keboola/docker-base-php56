@@ -15,7 +15,7 @@ RUN rpm -Uvh https://mirror.webtatic.com/yum/el6/latest.rpm && \
 		php-pdo \
 		php-xml \
 		&& \
-	yum clean all \
+	yum clean all && \
 	echo "date.timezone=UTC" >> /etc/php.ini && \
 	echo "memory_limit = -1" >> /etc/php.ini && \
 	curl -sS https://getcomposer.org/installer | php && \
