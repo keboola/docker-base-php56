@@ -1,5 +1,4 @@
 FROM keboola/base
-ENV APP_VERSION 1.2.0
 
 # Image setup
 WORKDIR /tmp
